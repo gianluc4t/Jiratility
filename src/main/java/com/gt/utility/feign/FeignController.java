@@ -28,7 +28,7 @@ public class FeignController {
 			"customfield_14317", "customfield_14319", "customfield_14326", "customfield_14324-1", "customfield_14298",
 			"customfield_14299", "customfield_14300", "customfield_14301", "customfield_14303", "customfield_14306",
 			"customfield_14308", "customfield_14310", "customfield_14312", "customfield_14314", "customfield_14316",
-			"customfield_14318", "comment");
+			"customfield_14318", "customfield_14352", "comment");
 
 	public FeignController() {
 

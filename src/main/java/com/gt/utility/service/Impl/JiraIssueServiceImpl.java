@@ -27,7 +27,7 @@ public class JiraIssueServiceImpl implements JiraIssueService {
 
 	@Override
 	public IssueListResponse getAll() {
-		logger.info("calling getAll(");
+		logger.info("calling getAll()");
 		IssueListResponse issueListResponse = new IssueListResponse();
 		List<IssueResponse> issuesResult = new ArrayList<IssueResponse>();
 		issueListResponse.setIssues(issuesResult);

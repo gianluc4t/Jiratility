@@ -112,6 +112,9 @@ public class Field {
 	
     //jiraDezembro
 	@Getter @Setter private  List<String> customfield_14318;
+	
+    //release
+	@Getter @Setter private  String customfield_14352;
 
 	@Getter @Setter private NameField issuetype;
 	

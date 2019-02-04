@@ -163,6 +163,10 @@ public class FieldResponse {
 
 	@Getter
 	@Setter
+	private String release;
+
+	@Getter
+	@Setter
 	private String assignee;
 
 	public FieldResponse(Field field) {
@@ -200,6 +204,7 @@ public class FieldResponse {
 		this.jiraOutubro = checkList(field.getCustomfield_14314());
 		this.jiraNovembro = checkList(field.getCustomfield_14316());
 		this.jiraDezembro = checkList(field.getCustomfield_14318());
+		this.release = field.getCustomfield_14352();
 		this.issuetype = checkName(field.getIssuetype());
 		this.reporter = checkName(field.getReporter());
 		this.assignee = checkName(field.getAssignee());
